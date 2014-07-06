@@ -1,0 +1,246 @@
+/*
+Theme Name:     Tokyo ry
+Theme URI:      http://tokyo.fi/
+Description:    tokyo 
+Author:         Harri Häivälä
+Author URI:     http://tokyo.fi/
+Template:       twentyeleven
+Version:        0.1.0
+*/
+
+/* Background */
+body  { background-color: #ffffff; 
+        background-image: url('http://tokyo.fi/en/wp-content/uploads/2014/05/tokyologo-nettisivut.jpg'); 
+	background-repeat: no-repeat; 
+	background-position: top left; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-size: 27%;
+}
+
+/* LAYOUT */
+
+#branding {
+}
+
+#access h3.assistive-text {
+	color: #000;
+	/* text-shadow: 1px 1px 1px #5b858a;
+        filter: dropshadow(color=#5b858a, offx=1, offy=1); */
+	font-size: 20px;
+	line-height: 1;
+	margin: 0 0 10px 0;
+}
+h3.widget-title  {
+	color: #000;
+	/* text-shadow: 1px 1px 1px #5b858a; 
+        filter: dropshadow(color=#5b858a, offx=1, offy=1); */
+	font-size: 18px;
+	line-height: 1;
+	margin: 0 0 10px 0;
+}
+
+.showgallery {
+	margin: 5% 0 0 0;
+}
+
+.carousel .item a > img {
+  display: block;
+  line-height: 1;
+}
+
+li {
+	list-style: none;		
+}
+
+.qtrans_language_chooser {
+}
+#nav-below {
+	width: 100%;
+	clear: both;
+	display: block;
+}
+
+#nav-below .nav-next {
+	margin: 0 0 2% 0;
+}
+#nav-below .nav-previous {
+	margin: 0 0 2% 0;
+}
+
+
+.nav-next {
+	float: right;
+	display: block;
+}
+
+.nav-previous {
+	float: left;
+	display: block;
+}
+
+
+/*Category Links */
+
+#categorylist {
+	clear: both;
+}
+
+#categorylist li {
+	display: inline-block;
+	margin: 0 3% 2% 0;
+	color: #888;
+}
+
+#categorylist .current-cat {
+	border-bottom: 5px #08C solid;
+}
+
+.current_page_item  {
+	font-weight: bold;
+	padding: 0 0 0 5px;
+	border-left: 5px #08C solid;
+	/* background: #fff; */
+	-webkit-border-radius: 5px;
+	border-radius: 5px;	
+}
+.page_item  {
+	/* background: #fff; */
+	-webkit-border-radius: 5px;
+	border-radius: 5px;	
+}
+.menu ul {
+	/* background: #fff; */
+	-webkit-border-radius: 5px;
+	border-radius: 5px;	
+	padding: 0 0 0 2px;
+}
+	
+/* POSTS */
+
+.post {
+	clear: both;
+}
+
+.entry-header {
+}
+
+.entry-content {
+	display: block;
+	clear: both;
+}
+
+h1.entry-title{
+	display: inline-block;
+}
+
+.entry-meta {
+	display: inline-block;
+	color: #999;
+	margin: 0 0 1% 0;
+}
+
+footer.entry-meta {
+	display: block;
+	width: 100%;
+	clear: both;
+	border-bottom: 1px #aaa solid;
+	padding: 1% 0 1% 0;
+}
+
+footer.entry-meta span.cat-links {
+}
+
+#comments {
+	display: block;
+	clear:both;
+}
+ol.commentlist {
+	margin: 0 5% 10px 25px;
+}
+ol.commentlist ul.children {
+	margin: 0 2% 10px 25px;
+}
+
+footer.comment-meta {
+	font-size: 13px;
+	padding: 0.5% 0 1% 0;
+}
+.comment-content {
+	padding: 2%;
+}
+
+.comment {
+	padding: 0.5%;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.comment.even {
+	background: #f8f8f8;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.comment.odd {
+	background: #f2f2f2;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+
+
+
+/* Footer */
+
+#colophon {
+	/* background: #D8E1E3; */
+	padding: 1%;
+	margin: 0.5% 0;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	color: #000;
+	display: block;
+	clear: both;
+}
+
+
+/*Image alignment and Caption fix for wordpress posts images*/
+#content .wp-caption{background:#F5F5F5;line-height:18px;margin-bottom:20px;text-align:center;padding:4px;}
+#content .wp-caption img{margin:5px 5px 0;}
+#content .wp-caption p.wp-caption-text{color:#888;font-size:12px;margin:5px;}
+#content .attachment img{max-width:620px;}
+#content .alignleft,#content img.alignleft{display:inline;float:left;margin-right:24px;margin-top:4px;}
+#content .alignright,#content img.alignright{display:inline;float:right;margin-left:24px;margin-top:4px;}
+#content .aligncenter,#content img.aligncenter{clear:both;display:block;margin-left:auto;margin-right:auto;}
+#content img.alignleft,#content img.alignright,#content img.aligncenter{margin-bottom:12px;}
+#content .attachment img {display: block;margin: 0 auto;}
+.subpages li { list-style: circle;  }
+code {white-space: normal;}
+@media (max-width: 955px){
+    #access .menu {
+	display: none;
+    }
+	
+    .hidden-phone {
+        display: none;
+    }
+    .span3 {
+	padding: 0 5px 0 5px;
+    }
+    .span9 {
+	width: auto;
+	max-width: 1100px;
+	padding: 0 5px 0 5px;
+    }
+    body { background-position: top right; }
+
+}
+@media (min-width: 956px){
+	#access select {
+		display: none;
+	}
+}
